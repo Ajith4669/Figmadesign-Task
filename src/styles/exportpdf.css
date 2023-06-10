@@ -1,0 +1,110 @@
+.exportpdf-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 25px;
+  background: white;
+}
+
+.exportpdf-heading {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #495057;
+}
+
+.exportpdf-heading .afterline {
+  height: 1px;
+  color: #e6e6e6;
+  background: #e6e6e6;
+  width: 80%;
+  margin-left: 25px;
+}
+
+.container-right {
+  width: 50%;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.field-container {
+  display: flex;
+  align-items: center;
+}
+.exportpdf-field {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #74788d;
+  min-width: 20%;
+}
+
+.exportpdf-answer {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #495057;
+  max-width: 50%;
+  border-bottom: 1px solid #ced4da;
+  padding-bottom: 5px;
+}
+
+.container-left {
+  width: 50%;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.parent-container {
+  display: flex;
+ 
+  width: -webkit-fill-available;
+}
+
+.line-hr {
+  display: inline-block;
+  width: 90%;
+  margin-bottom: 4px;
+  margin-left: 5px;
+}
+
+
+.exportpdf-answer-radiobuttons {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;  
+  color: #74788D;
+}
+
+.ant-select-selection-item{
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  color: #74788D !important;
+
+}
+
+.ant-radio-checked .ant-radio-inner{
+  border-color: #74788D !important ;
+  background: transparent !important;
+}
+
+.ant-radio-checked .ant-radio-inner:after{
+  background-color: #74788D !important;
+}
+
+.ant-radio:hover .ant-radio-inner {
+  border-color: #74788D !important;
+  background: transparent !important;
+}
