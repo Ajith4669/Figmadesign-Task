@@ -74,10 +74,16 @@ function Navbar() {
                 >
                   App Title
                 </h1>
-                <img src="../searchnormal1.svg" />
+                <Tooltip placement="topLeft" title="Search">
+                  <img src="../searchnormal1.svg" />
+                </Tooltip>
                 <hr />
-                <img src="../notification.svg" />
-                <img src="../setting2.svg" />
+                <Tooltip placement="topLeft" title="Notification">
+                  <img src="../notification.svg" />
+                </Tooltip>
+                <Tooltip placement="topLeft" title="Settings">
+                  <img src="../setting2.svg" />
+                </Tooltip>
                 <hr />
               </div>
               <Tooltip placement="topLeft" title="Logout">
